@@ -23,9 +23,12 @@ body {
 }
 
 .paddle_left {
+    position: relative;
+    --position: 10;
     height: 8vh;
     width: 3vh;
     background: rgb(255, 255, 255);
+    top: calc(var(--position)*1vh);
 }
 
 .paddle_right {
