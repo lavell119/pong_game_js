@@ -1,5 +1,5 @@
-const padelLeft = document.querySelector('.padel_1')
-const padelRight = document.querySelector('.padel_2')
+const padelLeft = document.querySelector('.paddle_left')
+const padelRight = document.querySelector('.paddle_right')
 
 
 const movePadelLeft = () => {
